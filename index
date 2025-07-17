@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>صفعة السمكة 🐟👋</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🐟 صفع رجل بسمكة - فيديو واقعي</h1>
+
+    <video id="slap-video" controls>
+      <source src="fish_slap.mp4" type="video/mp4">
+      متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+
+    <audio id="slap-sound" src="slap.mp3"></audio>
+
+    <br>
+    <button id="slap-btn">👋 صفعه الآن!</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
